@@ -705,6 +705,9 @@ async def create_instance(ctx: Context,
     }
 
     try:
+        # Ensure properties is always a dict
+        if properties is None:
+            properties = {}
         # Queue the command AND WAIT for the result
         result = await queue_command_and_wait(command)
         
@@ -1841,4 +1844,4 @@ async def modify_children(ctx: Context,
     except Exception as e:
         logger.exception("Unexpected error in modify_children tool.")
         return f"Unexpected server error: {e}"
-# --- END: Modify Children Tool --- 
+# --- END: Modify Children Tool ---
