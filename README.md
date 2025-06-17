@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/majidmanzarpour-vibe-blocks-mcp-badge.png)](https://mseep.ai/app/majidmanzarpour-vibe-blocks-mcp)
+
 # Vibe Blocks MCP for Roblox Studio
 
 Connects Roblox Studio to AI coding editors (like Cursor, Windsurf, Claude, etc) via the Model Context Protocol (MCP), enabling AI-assisted game development within your Roblox Studio environment.
